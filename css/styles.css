@@ -1043,6 +1043,7 @@ footer {
   color: #000000;
   text-align: center;
   background-color: #f3f3f3;
+  padding: 0.15625vw 0.520833vw;
 }
 
 .client-section {
