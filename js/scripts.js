@@ -388,7 +388,7 @@ $(document).ready(function () {
       $(".box-height-1").css("visibility", "inherit");
       $(".box-height-1").addClass("animate__fadeInLeft");
     },
-    { offset: "90%" }
+    { offset: "75%" }
   );
 
   $(".img-research2").waypoint(
@@ -398,7 +398,7 @@ $(document).ready(function () {
       $(".box-height-2").css("visibility", "inherit");
       $(".box-height-2").addClass("animate__fadeInRight");
     },
-    { offset: "90%" }
+    { offset: "75%" }
   );
 
   $("#image-3").waypoint(
@@ -408,7 +408,7 @@ $(document).ready(function () {
       $(".box-height-3").css("visibility", "inherit");
       $(".box-height-3").addClass("animate__fadeInLeft");
     },
-    { offset: "90%" }
+    { offset: "70%" }
   );
 
   $("#card-1").waypoint(
@@ -416,35 +416,35 @@ $(document).ready(function () {
       $("#card-1").css("opacity", "1");
       $("#card-1").addClass("animate__zoomIn");
     },
-    { offset: "90%" }
+    { offset: "70%" }
   );
   $("#card-2").waypoint(
     function () {
       $("#card-2").css("opacity", "1");
       $("#card-2").addClass("animate__zoomIn");
     },
-    { offset: "90%" }
+    { offset: "70%" }
   );
   $("#card-3").waypoint(
     function () {
       $("#card-3").css("opacity", "1");
       $("#card-3").addClass("animate__zoomIn");
     },
-    { offset: "90%" }
+    { offset: "70%" }
   );
   $("#card-4").waypoint(
     function () {
       $("#card-4").css("opacity", "1");
       $("#card-4").addClass("animate__zoomIn");
     },
-    { offset: "90%" }
+    { offset: "70%" }
   );
   $("#card-5").waypoint(
     function () {
       $("#card-5").css("opacity", "1");
       $("#card-5").addClass("animate__zoomIn");
     },
-    { offset: "90%" }
+    { offset: "70%" }
   );
 
   $(".achivement1").waypoint(
