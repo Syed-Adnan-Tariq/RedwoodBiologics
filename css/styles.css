@@ -686,7 +686,6 @@ footer {
   font-weight: bold;
   font-size: 2.604167vw;
   line-height: 4.2vw;
-  
 }
 
 .tagline span {
@@ -822,7 +821,7 @@ footer {
 }
 
 #about {
-  margin: 0 0 5vw 0;
+  margin: 5vw 0 5vw 0;
 }
 
 /* research-details-section */
@@ -1010,7 +1009,7 @@ footer {
   }
 
   .research-mt-5 {
-    margin-top: 15vw;
+    margin-top: 10vw;
   }
 
   .research-mb-5 {
@@ -1138,7 +1137,7 @@ span {
 }
 
 @media only screen and (min-width: 992px) {
-  .tagline{
+  .tagline {
     margin-top: 6rem;
   }
   .logo-row {
@@ -1228,12 +1227,11 @@ span {
   .line_row_1 {
     width: 91%;
   }
-  #f-head_row{
-    padding-top:0.3125vw;
-    
+  #f-head_row {
+    padding-top: 0.3125vw;
   }
-  #line1_footer_lg{
-    margin-top:1.5295vw;
+  #line1_footer_lg {
+    margin-top: 1.5295vw;
   }
 }
 
@@ -1308,9 +1306,9 @@ span {
   .footer .footer-area {
     padding: 0vw 0 1.7vw 0;
   }
-  .line_row{
-    width:80%;
-    border-top: 0.5px solid rgba(117,117,117,1);
+  .line_row {
+    width: 80%;
+    border-top: 0.5px solid rgba(117, 117, 117, 1);
   }
 
   .line_row1 {
@@ -1576,7 +1574,6 @@ span {
   }
 
   .section-title {
-    padding-top: 1rem;
     font-size: 4vw;
   }
 
