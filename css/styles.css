@@ -99,7 +99,7 @@ section p {
 .row {
   margin-right: 0px !important;
   margin-left: 0px !important;
-  margin-bottom: -6px !important;
+  /* margin-bottom: -6px !important; */
 }
 
 .story {
@@ -686,7 +686,7 @@ footer {
   font-weight: bold;
   font-size: 2.604167vw;
   line-height: 4.2vw;
-  margin-top: 6rem;
+  
 }
 
 .tagline span {
@@ -1138,6 +1138,9 @@ span {
 }
 
 @media only screen and (min-width: 992px) {
+  .tagline{
+    margin-top: 6rem;
+  }
   .logo-row {
     display: flex;
   }
