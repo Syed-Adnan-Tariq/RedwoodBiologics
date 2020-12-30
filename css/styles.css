@@ -38,7 +38,7 @@ body {
 }
 
 .nav-link {
-  font-family: "poppins";
+  font-family: "Abel";
   padding-right: 50px !important;
   color: #fff !important;
   text-transform: uppercase;
@@ -683,7 +683,7 @@ footer {
   top: 35%;
   color: #000;
   text-align: left;
-  font-family: "poppins";
+  font-family: "Abel";
   font-weight: bold;
   font-size: 2.604167vw;
   line-height: 5vw;
@@ -749,7 +749,7 @@ footer {
 
 .quote-tt {
   padding: 8.05vh 22.395vw;
-  font-family: "poppins";
+  font-family: "Abel";
   font-size: 1.5625vw;
   text-align: center;
   color: #333333;
@@ -832,7 +832,7 @@ footer {
 
 /* research-details-section */
 .card-section {
-  margin: 5vw 0 5vw 0;
+  margin: 4.6875vw 0 4.6875vw 0;
 }
 
 .details-container {
@@ -888,7 +888,7 @@ footer {
 .card-title {
   font-size: 2.34375vw;
   font-weight: 600;
-  font-family: "Poppins";
+  font-family: "Abel";
   text-align: left;
   padding: 2vw 2vw 2vw 2vw;
   margin-bottom: 0;
@@ -897,8 +897,11 @@ footer {
 .card-text {
   color: #333333;
   font-size: 1.25vw;
+  line-height: 2.08333333vw;
   font-weight: 300;
-  font-family: "Poppins";
+  letter-spacing: 0px;
+  font-family: "Abel";
+  text-align: justify;
   text-align: left;
   padding: 0 2vw;
 }
@@ -907,7 +910,7 @@ footer {
   color: #333333;
   font-size: 1.25vw;
   font-weight: 300;
-  font-family: "Poppins";
+  font-family: "Abel";
 }
 
 .card-link {
@@ -971,7 +974,7 @@ footer {
   }
 
   .mobile-card-title {
-    font-family: "Poppins";
+    font-family: "Abel";
     margin-top: 4vw;
     font-size: 4.8661vw;
     font-weight: 600;
@@ -981,7 +984,7 @@ footer {
     color: #333333;
     font-size: 2.433vw;
     font-weight: 300;
-    font-family: "Poppins";
+    font-family: "Abel";
     line-height: 4.136vw !important;
     padding: 4.866vw 2vw;
     margin-bottom: 0px;
@@ -998,7 +1001,7 @@ footer {
     color: #333333;
     font-size: 2.433vw;
     font-weight: 300;
-    font-family: "Poppins";
+    font-family: "Abel";
     line-height: 3.4vw !important;
   }
 
@@ -1038,7 +1041,7 @@ footer {
 }
 
 .section-title {
-  font-family: "poppins";
+  font-family: "Abel";
   text-transform: uppercase;
   font-size: 2.34375vw;
   font-weight: bolder;
@@ -1073,7 +1076,7 @@ footer {
 
 /* footer-section */
 .footer {
-  background-color: #ff4713;
+  background-color: #000000;
 }
 
 .footer h1,
@@ -1084,7 +1087,7 @@ h5,
 h6,
 p,
 span {
-  font-family: "Poppins";
+  font-family: "Abel";
   color: #ffffff;
 }
 
@@ -1096,7 +1099,7 @@ span {
 }
 
 .footer .line_row {
-  border-color: #ff8461;
+  border-color: #ffffff;
 }
 
 .footer-section-1 {
@@ -1112,7 +1115,7 @@ span {
 }
 
 .footer-copyright {
-  color: #ffb19e;
+  color: #ffffff;
   font-weight: 400;
 }
 
@@ -1297,6 +1300,10 @@ span {
   .footer .footer-area {
     padding: 0vw 0 1.7vw 0;
   }
+  .line_row{
+    width:80%;
+    border-top: 0.5px solid rgba(0,0,0,.1);
+  }
 
   .line_row1{
   margin-top: 1.45985vw;
@@ -1359,7 +1366,7 @@ span {
   }
 
   .footer-social-bar {
-    margin-top: 3.2vw;
+    margin-top: 0.607533414vh;
     padding-left: 2vw;
   }
 
@@ -1655,7 +1662,7 @@ span {
     font-size: 4.37956vw;
     color: #ef4b23;
     text-transform: uppercase;
-    font-family: "poppins";
+    font-family: "Abel";
     font-weight: 600;
     margin-bottom: 20px;
   }
@@ -1695,7 +1702,7 @@ span {
   top: 50%;
   color: #fff;
   text-align: left;
-  font-family: "poppins";
+  font-family: "Abel";
   font-weight: bold;
   font-size: 3vw;
   line-height: 5vw;
@@ -1804,23 +1811,24 @@ h2.figures {
 
 .founders-img,
 .team-img {
-  width: 51.52864583vw;
+  width: 41.6666667vw;
+  height: 26.0416667vw;
 }
 
 .founders-box {
-  width: 31.74479167vw;
-  margin-right: 5.234375vw !important;
+  width: 36.041667vw;
+  margin-right: 3.94791667vw !important;
 }
 
 .team-box {
-  width: 33.125vw;
-  margin-left: 5.234375vw !important;
+  width: 36.041667vw;
+  margin-left: 3.94791667vw !important;
 }
 
 .founders-box .card-body .card-title,
 .team-box .card-body .card-title {
   font-size: 2.34375vw;
-  color: #ef4b23;
+  color: #333333;
   padding-right: 0;
   padding-left: 0;
   text-transform: uppercase;
@@ -1842,7 +1850,7 @@ h2.figures {
 }
 
 .team-section {
-  margin-bottom: 10vw;
+  margin-bottom: 4.6875vw;
 }
 
 .find-more {
