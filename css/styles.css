@@ -743,7 +743,7 @@ footer {
 }
 
 .quote-tt {
-  padding: 3.90625vw 10.2vw 10.3125vw 10.2vw;
+  padding: 3.8020vw 10.2vw 10.5729167vw 10.2vw;
   font-family: "Abel";
   font-size: 1.5625vw;
   text-align: center;
@@ -822,7 +822,7 @@ footer {
 }
 
 #about {
-  margin: 5vw 0 5vw 0;
+  margin: 9.375vw 0 0 0;
 }
 
 /* research-details-section */
@@ -971,17 +971,17 @@ footer {
   .mobile-card-title {
     font-family: "Abel";
     margin-top: 4.8661vw;
-    font-size: 4.8661vw;
+    font-size: 2.91970vw;
     font-weight: 600;
   }
 
   .mobile-card-text {
     color: #333333;
-    font-size: 2.433vw;
-    font-weight: 300;
+    font-size: 2.43309002vw;
+    font-weight: 400;
     font-family: "Abel";
-    line-height: 3.4063vw !important;
-    padding: 2.43309vw 2vw 4.8661vw 2vw;
+    line-height: 4.13625vw !important;
+    padding: 2.43309vw 5.35279vw 4.8661vw 5.35279vw;
     margin-bottom: 0px;
   }
 
@@ -1138,9 +1138,14 @@ span {
 }
 
 @media only screen and (min-width: 992px) {
+  /* other component css */
   .tagline {
     margin-top: 6rem;
   }
+  .section-1{
+    margin-top: 6.9270833vw;
+  }
+  /* other component css */
   .logo-row {
     display: flex;
   }
@@ -1524,12 +1529,12 @@ span {
 @media (max-width: 768px) {
   .overlay {
     margin-top: 65px;
-    height: 178px;
+    height: 211px;
     width: 100vw;
   }
 
   .video-container {
-    height: 260px;
+    height: 275px;
   }
 
   .tagline {
@@ -1560,9 +1565,12 @@ span {
   .right-arrow {
     width: 8px;
   }
+  #about{
+    margin-top: 12.1654501vw;
+  }
 
   .quote-tt {
-    padding: 24px 37px;
+    padding: 4.86618vw 37px 12.165401vw 37px;
     font-size: 10px;
   }
 
@@ -1575,7 +1583,7 @@ span {
   }
 
   .section-title {
-    font-size: 4vw;
+    font-size: 3.4063vw;
   }
 
   .awards-section {
