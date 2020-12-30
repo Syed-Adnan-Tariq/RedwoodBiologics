@@ -712,7 +712,7 @@ footer {
 
 .video-container {
   height: 100vh;
-  padding-top: 78px;
+  padding-top: 64px;
 }
 
 .hero-video {
@@ -1524,7 +1524,7 @@ span {
 
 @media (max-width: 768px) {
   .overlay {
-    margin-top: 82px;
+    margin-top: 65px;
     height: 178px;
     width: 100vw;
   }
