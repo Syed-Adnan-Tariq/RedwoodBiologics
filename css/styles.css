@@ -48,7 +48,6 @@ body {
 .navbar-light .navbar-toggler-icon {
   background-image: url(../assets/images/menu-button.png);
   height: 1.2em;
-
 }
 
 .navbar-light .navbar-toggler {
@@ -323,92 +322,92 @@ footer {
   transition: transform 0.26s ease;
 }
 
-.showing1~#t1wrapper .teamDetails {
+.showing1 ~ #t1wrapper .teamDetails {
   transform: scaleY(1) !important;
 }
 
-.showing1~#t1wrapper {
+.showing1 ~ #t1wrapper {
   height: 440px !important;
   padding-top: 30px;
 }
 
-.showing2~#t2wrapper .teamDetails {
+.showing2 ~ #t2wrapper .teamDetails {
   transform: scaleY(1) !important;
 }
 
-.showing2~#t2wrapper {
+.showing2 ~ #t2wrapper {
   height: 440px !important;
   padding-top: 30px;
 }
 
-.showing3~#t3wrapper .teamDetails {
+.showing3 ~ #t3wrapper .teamDetails {
   transform: scaleY(1) !important;
 }
 
-.showing3~#t3wrapper {
+.showing3 ~ #t3wrapper {
   height: 440px !important;
   padding-top: 30px;
 }
 
-.showing4~#t4wrapper .teamDetails {
+.showing4 ~ #t4wrapper .teamDetails {
   transform: scaleY(1) !important;
 }
 
-.showing4~#t4wrapper {
+.showing4 ~ #t4wrapper {
   height: 440px !important;
   padding-top: 30px;
 }
 
-.showing5~#t5wrapper .teamDetails {
+.showing5 ~ #t5wrapper .teamDetails {
   transform: scaleY(1) !important;
 }
 
-.showing5~#t5wrapper {
+.showing5 ~ #t5wrapper {
   height: 440px !important;
   padding-top: 30px;
 }
 
-.showing6~#t6wrapper .teamDetails {
+.showing6 ~ #t6wrapper .teamDetails {
   transform: scaleY(1) !important;
 }
 
-.showing6~#t6wrapper {
+.showing6 ~ #t6wrapper {
   height: 440px !important;
   padding-top: 30px;
 }
 
-.showing7~#t7wrapper .teamDetails {
+.showing7 ~ #t7wrapper .teamDetails {
   transform: scaleY(1) !important;
 }
 
-.showing7~#t7wrapper {
+.showing7 ~ #t7wrapper {
   height: 440px !important;
   padding-top: 30px;
 }
 
-.showing8~#t8wrapper .teamDetails {
+.showing8 ~ #t8wrapper .teamDetails {
   transform: scaleY(1) !important;
 }
 
-.showing8~#t8wrapper {
+.showing8 ~ #t8wrapper {
   height: 440px !important;
   padding-top: 30px;
 }
 
-.showing9~#t9wrapper .teamDetails {
+.showing9 ~ #t9wrapper .teamDetails {
   transform: scaleY(1) !important;
 }
 
-.showing9~#t9wrapper {
+.showing9 ~ #t9wrapper {
   height: 440px !important;
   padding-top: 30px;
 }
 
-.showing10~#t10wrapper .teamDetails {
+.showing10 ~ #t10wrapper .teamDetails {
   transform: scaleY(1) !important;
 }
 
-.showing10~#t10wrapper {
+.showing10 ~ #t10wrapper {
   height: 440px !important;
   padding-top: 30px;
 }
@@ -539,92 +538,92 @@ footer {
     margin-left: -15px;
   }
 
-  .showing1~#t1wrapper .teamDetails {
+  .showing1 ~ #t1wrapper .teamDetails {
     transform: scaleY(1) !important;
   }
 
-  .showing1~#t1wrapper {
+  .showing1 ~ #t1wrapper {
     height: 250px !important;
     padding-top: 30px;
   }
 
-  .showing2~#t2wrapper .teamDetails {
+  .showing2 ~ #t2wrapper .teamDetails {
     transform: scaleY(1) !important;
   }
 
-  .showing2~#t2wrapper {
+  .showing2 ~ #t2wrapper {
     height: 250px !important;
     padding-top: 30px;
   }
 
-  .showing3~#t3wrapper .teamDetails {
+  .showing3 ~ #t3wrapper .teamDetails {
     transform: scaleY(1) !important;
   }
 
-  .showing3~#t3wrapper {
+  .showing3 ~ #t3wrapper {
     height: 250px !important;
     padding-top: 30px;
   }
 
-  .showing4~#t4wrapper .teamDetails {
+  .showing4 ~ #t4wrapper .teamDetails {
     transform: scaleY(1) !important;
   }
 
-  .showing4~#t4wrapper {
+  .showing4 ~ #t4wrapper {
     height: 250px !important;
     padding-top: 30px;
   }
 
-  .showing5~#t5wrapper .teamDetails {
+  .showing5 ~ #t5wrapper .teamDetails {
     transform: scaleY(1) !important;
   }
 
-  .showing5~#t5wrapper {
+  .showing5 ~ #t5wrapper {
     height: 250px !important;
     padding-top: 30px;
   }
 
-  .showing6~#t6wrapper .teamDetails {
+  .showing6 ~ #t6wrapper .teamDetails {
     transform: scaleY(1) !important;
   }
 
-  .showing6~#t6wrapper {
+  .showing6 ~ #t6wrapper {
     height: 250px !important;
     padding-top: 30px;
   }
 
-  .showing7~#t7wrapper .teamDetails {
+  .showing7 ~ #t7wrapper .teamDetails {
     transform: scaleY(1) !important;
   }
 
-  .showing7~#t7wrapper {
+  .showing7 ~ #t7wrapper {
     height: 250px !important;
     padding-top: 30px;
   }
 
-  .showing8~#t8wrapper .teamDetails {
+  .showing8 ~ #t8wrapper .teamDetails {
     transform: scaleY(1) !important;
   }
 
-  .showing8~#t8wrapper {
+  .showing8 ~ #t8wrapper {
     height: 250px !important;
     padding-top: 30px;
   }
 
-  .showing9~#t9wrapper .teamDetails {
+  .showing9 ~ #t9wrapper .teamDetails {
     transform: scaleY(1) !important;
   }
 
-  .showing9~#t9wrapper {
+  .showing9 ~ #t9wrapper {
     height: 250px !important;
     padding-top: 30px;
   }
 
-  .showing10~#t10wrapper .teamDetails {
+  .showing10 ~ #t10wrapper .teamDetails {
     transform: scaleY(1) !important;
   }
 
-  .showing10~#t10wrapper {
+  .showing10 ~ #t10wrapper {
     height: 250px !important;
     padding-top: 30px;
   }
@@ -686,7 +685,8 @@ footer {
   font-family: "Abel";
   font-weight: bold;
   font-size: 2.604167vw;
-  line-height: 5vw;
+  line-height: 4.2vw;
+  margin-top: 6rem;
 }
 
 .tagline span {
@@ -702,7 +702,7 @@ footer {
   border-radius: 32px;
   color: #fff;
   height: 3.3125vw;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .learn-more:hover {
@@ -1220,7 +1220,7 @@ span {
   .contact-section-2 {
     padding-top: 0.4vw;
   }
-  .line_row_1{
+  .line_row_1 {
     width: 91%;
   }
 }
@@ -1296,18 +1296,18 @@ span {
   .footer .footer-area {
     padding: 0vw 0 1.7vw 0;
   }
-  .line_row{
-    width:80%;
-    border-top: 0.5px solid rgba(0,0,0,.1);
+  .line_row {
+    width: 80%;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.1);
   }
 
-  .line_row1{
-  margin-top: 1.45985vw;
-}
-.line_row2{
-  margin-top: 1.45985vw;
-  margin-bottom: 1.45985vw;
-}
+  .line_row1 {
+    margin-top: 1.45985vw;
+  }
+  .line_row2 {
+    margin-top: 1.45985vw;
+    margin-bottom: 1.45985vw;
+  }
   .enquries-row {
     margin-bottom: -2vw;
   }
@@ -1590,7 +1590,7 @@ span {
   }
 
   .nav-link {
-    padding: .5rem 1rem !important;
+    padding: 0.5rem 1rem !important;
   }
 
   .about-card {
@@ -1602,7 +1602,7 @@ span {
   }
 
   .about-img1 {
-    width: 11.1070vw !important;
+    width: 11.107vw !important;
     padding-top: 5.255vw !important;
   }
 
@@ -1769,7 +1769,7 @@ h2.figures {
 
 .x {
   font-size: 2.1875vw;
-  color: #9A9A9A;
+  color: #9a9a9a;
   margin-bottom: 0.2083vw;
 }
 
@@ -1835,7 +1835,8 @@ h2.figures {
   color: #333333;
 }
 
-.card-text strong, .mobile-card-text strong {
+.card-text strong,
+.mobile-card-text strong {
   font-weight: bold;
 }
 
