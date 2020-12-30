@@ -742,13 +742,8 @@ footer {
   background-size: contain;
 }
 
-.quote-bg,
-.awards-section {
-  background-color: #fff3e4;
-}
-
 .quote-tt {
-  padding: 8.05vh 22.395vw;
+  padding: 3.90625vw 10.2vw 10.3125vw 10.2vw;
   font-family: "Abel";
   font-size: 1.5625vw;
   text-align: center;
@@ -1045,8 +1040,10 @@ footer {
   text-transform: uppercase;
   font-size: 2.34375vw;
   font-weight: bolder;
-  color: #ef4b23;
+  color: #000000;
   text-align: center;
+  background-color: #f3f3f3;
+  padding: 0.15625vw 0.520833vw;
 }
 
 .client-section {
@@ -1668,7 +1665,7 @@ span {
   .mobile-section-title {
     text-align: center;
     font-size: 4.37956vw;
-    color: #ef4b23;
+    color: #000000;
     text-transform: uppercase;
     font-family: "Abel";
     font-weight: 600;
@@ -1725,7 +1722,7 @@ span {
 }
 
 .about-section-title span {
-  color: #ef4b23;
+  color: #000000;
   font-size: 1.614583vw;
 }
 
