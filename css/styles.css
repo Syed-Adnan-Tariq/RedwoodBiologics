@@ -1550,10 +1550,10 @@ span {
   }
 
   .learn-more {
-    width: 100px;
+    width: 130px;
     height: 17px;
     font-size: 10px;
-    margin-left: calc(50% - 50px);
+    margin-left: calc(50% - 65px);
     margin-top: 1em;
     padding: 0 1em;
   }
