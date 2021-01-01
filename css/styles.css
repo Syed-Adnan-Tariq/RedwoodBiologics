@@ -1554,10 +1554,10 @@ span {
   }
 
   .learn-more {
-    width: 130px;
+    width: 160px;
     height: 21px;
     font-size: 10px;
-    margin-left: calc(50% - 65px);
+    margin-left: calc(50% - 80px);
     margin-top: 1em;
     padding: 0 1em;
   }
