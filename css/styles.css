@@ -1156,6 +1156,7 @@ span {
 
   .footer-section-1 .footer-logo {
     width: 15.88vw;
+    transform: translateZ(0);
   }
 
   .footer-section-1 .footer-social-bar {
@@ -1248,6 +1249,7 @@ span {
 
   .footer-logo {
     width: 30vh;
+    transform: translateZ(0);
   }
 
   .logo-row {
@@ -1366,6 +1368,7 @@ span {
 
   .footer-logo {
     width: 50vw;
+    transform: translateZ(0);
   }
 
   .footer-social-icon img {
