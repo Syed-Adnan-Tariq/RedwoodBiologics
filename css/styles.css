@@ -712,7 +712,7 @@ footer {
 
 .video-container {
   height: 100vh;
-  padding-top: 64px;
+  padding-top: 63px;
 }
 
 .hero-video {
@@ -1699,12 +1699,13 @@ span {
 /* for apple ipad */
 @media screen and (max-width: 991px) and (min-width: 768px) {
   .overlay {
-    height: 460px;
-    margin-top: 82px;
+    height: 480px;
+    margin-top: 57px;
   }
 
   .video-container {
-    height: 542px;
+    height: 536px;
+    padding-top: 57px;
   }
 
   .quote-tt {
