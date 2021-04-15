@@ -11,12 +11,13 @@ $(document).ready(function () {
       200
     );
   });
-  $(window).load(function () {
-    var x = location.protocol;
-    if (x === "http:") {
-      window.location.protocol = "https:";
-    }
-  });
+  // $(window).on('load', function() {
+  // // $(window).load(function () {
+  //   var x = location.protocol;
+  //   if (x === "http:") {
+  //     window.location.protocol = "https:";
+  //   }
+  // });
 
   // Active link switching
   $(window).scroll(function () {
