@@ -1135,7 +1135,7 @@ span {
   }
 
   .footer-section-1 .footer-logo {
-    width: 15.88vw;
+    width: 11.88vw;
     transform: translateZ(0);
   }
 
@@ -1396,7 +1396,7 @@ span {
   margin-top: -50px;
   margin-left: -50px;
   border: 3px solid transparent;
-  border-top-color: #000000;
+  border-top-color: #d02247;
   border-radius: 50%;
   z-index: 1001;
   -webkit-animation: spin 1.5s infinite linear;
@@ -1416,7 +1416,7 @@ span {
   right: 5px;
   bottom: 5px;
   border: 3px solid transparent;
-  border-top-color: #000000;
+  border-top-color: #d02247;
   -webkit-animation: spin 2s infinite linear;
   animation: spin 2s infinite linear;
 }
@@ -1427,7 +1427,7 @@ span {
   right: 15px;
   bottom: 15px;
   border: 3px solid transparent;
-  border-top-color: #000000;
+  border-top-color: #d02247;
   -webkit-animation: spin 1s infinite linear;
   animation: spin 1s infinite linear;
 }
