@@ -1,23 +1,3 @@
-@font-face {
-  font-family: "exLight";
-  src: url("../assets/fonts/Giorgio-Sans-Extra-Light.otf");
-}
-
-@font-face {
-  font-family: "medium";
-  src: url("../assets/fonts/Giorgio-Sans-Medium.otf");
-}
-
-@font-face {
-  font-family: "regular";
-  src: url("../assets/fonts/Giorgio-Sans-Regular.otf");
-}
-
-@font-face {
-  font-family: "publicText";
-  src: url("../assets/fonts/PublicoText-Roman.otf");
-}
-
 html {
   scroll-behavior: smooth !important;
 }
@@ -28,7 +8,7 @@ body {
 }
 
 .bgLight {
-  background-color: #000;
+  background-color: #fff;
 }
 
 .turtleHead {
@@ -38,9 +18,9 @@ body {
 }
 
 .nav-link {
-  font-family: "Poppins";
+  font-family: "Noto Sans";
   padding-right: 50px !important;
-  color: #fff !important;
+  color: #d02247 !important;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -437,7 +417,7 @@ footer {
 }
 
 .navbar-brand img {
-  width: 40%;
+  width: 100%;
   transform: translateZ(0);
 }
 
@@ -682,7 +662,7 @@ footer {
   top: 35%;
   color: #000;
   text-align: left;
-  font-family: "Poppins";
+  font-family: "Noto Sans";
   font-weight: bold;
   font-size: 2.604167vw;
   line-height: 4.2vw;
@@ -744,7 +724,7 @@ footer {
 
 .quote-tt {
   padding: 3.8020vw 10.2vw 10.5729167vw 10.2vw;
-  font-family: "Poppins";
+  font-family: "Noto Sans";
   font-size: 1.5625vw;
   text-align: center;
   color: #333333;
@@ -883,7 +863,7 @@ footer {
 .card-title {
   font-size: 2.34375vw;
   font-weight: 600;
-  font-family: "Poppins";
+  font-family: "Noto Sans";
   text-align: left;
   padding: 2vw 2vw 2vw 2vw;
   margin-bottom: 0;
@@ -895,7 +875,7 @@ footer {
   line-height: 2.08333333vw;
   font-weight: 300;
   letter-spacing: -0.6px;
-  font-family: "Poppins";
+  font-family: "Noto Sans";
   text-align: justify;
   text-align: left;
   padding: 0 2vw;
@@ -905,7 +885,7 @@ footer {
   color: #333333;
   font-size: 1.25vw;
   font-weight: 300;
-  font-family: "Poppins";
+  font-family: "Noto Sans";
 }
 
 .card-link {
@@ -969,7 +949,7 @@ footer {
   }
 
   .mobile-card-title {
-    font-family: "Poppins";
+    font-family: "Noto Sans";
     margin-top: 4.8661vw;
     font-size: 2.91970vw;
     font-weight: 600;
@@ -979,7 +959,7 @@ footer {
     color: #333333;
     font-size: 2.43309002vw;
     font-weight: 400;
-    font-family: "Poppins";
+    font-family: "Noto Sans";
     line-height: 4.13625vw !important;
     padding: 2.43309vw 5.35279vw 4.8661vw 5.35279vw;
     margin-bottom: 0px;
@@ -996,7 +976,7 @@ footer {
     color: #333333;
     font-size: 2.433vw;
     font-weight: 300;
-    font-family: "Poppins";
+    font-family: "Noto Sans";
     line-height: 3.4vw !important;
   }
 
@@ -1036,7 +1016,7 @@ footer {
 }
 
 .section-title {
-  font-family: "Poppins";
+  font-family: "Noto Sans";
   text-transform: uppercase;
   font-size: 2.34375vw;
   font-weight: bolder;
@@ -1085,7 +1065,7 @@ h5,
 h6,
 p,
 span {
-  font-family: "Poppins";
+  font-family: "Noto Sans";
   color: #ffffff;
 }
 
@@ -1679,7 +1659,7 @@ span {
     font-size: 4.37956vw;
     color: #000000;
     text-transform: uppercase;
-    font-family: "Poppins";
+    font-family: "Noto Sans";
     font-weight: 600;
     margin-bottom: 20px;
   }
@@ -1720,7 +1700,7 @@ span {
   top: 50%;
   color: #fff;
   text-align: left;
-  font-family: "Poppins";
+  font-family: "Noto Sans";
   font-weight: bold;
   font-size: 3vw;
   line-height: 5vw;
