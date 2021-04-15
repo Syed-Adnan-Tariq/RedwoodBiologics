@@ -427,7 +427,7 @@ footer {
   }
 
   .navbar-brand img {
-    width: 200px !important;
+    width: 150px !important;
   }
 
   .headingFirst {
@@ -1135,7 +1135,7 @@ span {
   }
 
   .footer-section-1 .footer-logo {
-    width: 11.88vw;
+    width: 12.5vw;
     transform: translateZ(0);
   }
 
@@ -1228,7 +1228,7 @@ span {
   }
 
   .footer-logo {
-    width: 30vh;
+    width: 40vh;
     transform: translateZ(0);
   }
 
@@ -1344,7 +1344,7 @@ span {
   }
 
   .footer-logo {
-    width: 50vw;
+    width: 30vw;
     transform: translateZ(0);
   }
 
