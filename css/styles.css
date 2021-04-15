@@ -1462,7 +1462,7 @@ span {
   top: 0;
   width: 51%;
   height: 100%;
-  background: #fff9f9;
+  background: #fff;
   z-index: 1000;
 }
 
@@ -1587,7 +1587,7 @@ span {
   }
 
   .nav-item .nav-link:hover {
-    background-color: #fff3e4;
+    background-color: #333333;
   }
 
   .nav-link {
