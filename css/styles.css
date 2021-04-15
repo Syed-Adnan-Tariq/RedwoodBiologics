@@ -418,6 +418,7 @@ footer {
 
 .navbar-brand img {
   width: 100%;
+  margin-left: 10px;
   transform: translateZ(0);
 }
 
@@ -723,7 +724,7 @@ footer {
 }
 
 .quote-tt {
-  padding: 3.8020vw 10.2vw 10.5729167vw 10.2vw;
+  padding: 3.802vw 10.2vw 10.5729167vw 10.2vw;
   font-family: "Noto Sans";
   font-size: 1.5625vw;
   text-align: center;
@@ -951,7 +952,7 @@ footer {
   .mobile-card-title {
     font-family: "Noto Sans";
     margin-top: 4.8661vw;
-    font-size: 2.91970vw;
+    font-size: 2.9197vw;
     font-weight: 600;
   }
 
@@ -1122,7 +1123,7 @@ span {
   .tagline {
     margin-top: 6rem;
   }
-  .section-1{
+  .section-1 {
     margin-top: 6.9270833vw;
   }
   /* other component css */
@@ -1545,7 +1546,7 @@ span {
   .right-arrow {
     width: 8px;
   }
-  #about{
+  #about {
     margin-top: 12.1654501vw;
   }
 
