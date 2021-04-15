@@ -944,7 +944,7 @@ footer {
   }
 
   .card-img {
-    height: 36vw;
+    height: 45vw;
     border-radius: 0px;
   }
 
@@ -1291,9 +1291,6 @@ span {
 }
 
 @media only screen and (max-width: 767px) {
-  .footer .footer-area {
-    padding: 0vw 0 1.7vw 0;
-  }
   .line_row {
     width: 80%;
     border-top: 0.5px solid rgba(117, 117, 117, 1);
