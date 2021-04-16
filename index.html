@@ -1,360 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-NJX1G41ZY6"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
 
-      gtag("config", "G-NJX1G41ZY6");
-    </script>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NJX1G41ZY6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Redwood Biologics</title>
-    <meta name="author" content="Codrops" />
-    <meta value="name" content="Redwood Biologics" />
+    gtag("config", "G-NJX1G41ZY6");
+  </script>
 
-    <link rel="shortcut icon" href="assets/images/favicon.png" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://fonts.googleapis.com/css?family=Noto Sans"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Redwood Biologics</title>
+  <meta name="author" content="Codrops" />
+  <meta value="name" content="Redwood Biologics" />
 
-  <body>
-    <div class="preloader loader-wrapper">
-      <div class="loader"></div>
-      <div class="loader-section section-left"></div>
-      <div class="loader-section section-right"></div>
+  <link rel="shortcut icon" href="assets/images/favicon.png" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Noto Sans" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div class="preloader loader-wrapper">
+    <div class="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bgLight fixed-top">
+    <a class="navbar-brand" href="./">
+      <img src="assets/images/redwood logo.png" alt="redwood biologics" />
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="./" data-target=".navbar-collapse.show">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="./partners.html" data-target=".navbar-collapse.show">Partnering
+          </a>
+        </li>
+      </ul>
     </div>
+  </nav>
 
-    <nav class="navbar navbar-expand-lg navbar-light bgLight fixed-top">
-      <a class="navbar-brand" href="./">
-        <img
-          src="assets/images/redwood logo.png"
-          alt="redwood biologics"
-        />
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="./"
-              data-target=".navbar-collapse.show"
-              >Home</a
-            >
-          </li>
-
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="./partners.html"
-              data-target=".navbar-collapse.show"
-              >Partnering
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <div class="overlay" id="home">
-      <div class="tagline animate__animated animate__fadeInLeft">
-        <!-- Designing The Engine of<br />
-        <span>cellular technologies</span> -->
-        <a href="#about" class="scroll text-decoration-none"
-          ><button
-            type="button"
-            class="btn learn-more d-flex align-items-center justify-content-around"
-          >
-            Read our press release<img
-              class="right-arrow"
-              src="assets/images/right-arrow.png"
-              width="20px"
-            /></button
-        ></a>
-      </div>
+  <div class="overlay" id="home">
+    <div class="tagline animate__animated animate__fadeInLeft">
+      Transforming Innovations into<br />
+      <span>Health Solutions</span>
+      <a href="#about" class="scroll text-decoration-none"><button type="button"
+          class="btn learn-more d-flex align-items-center justify-content-around">
+          Learn more<img class="right-arrow" src="assets/images/right-arrow.png" width="20px" /></button></a>
     </div>
-    <div class="video-container">
-      <video
-        class="hero-video"
-        src="assets/images/microscope-small.mp4"
-        autoplay
-        loop
-        playsinline
-        muted
-      ></video>
-    </div>
+  </div>
+  <div class="video-container">
+    <video class="hero-video" src="assets/images/microscope-small.mp4" autoplay loop playsinline muted></video>
+  </div>
 
-    <section id="about" class="research-details bg-research text-center">
-      <span class="section-title">The enabler of many technologies</span>
-      <div class="row">
-        <div class="container-fluid">
-          <div class="card-section section-1 d-flex">
-            <div class="row">
-              <div class="founders-box box-height-1 animate__animated">
-                <div class="card-body">
-                  <h1 class="card-title text-right">Precision Technology</h1>
-                  <p class="card-text mb-0 text-right">
-                    Cutting edge novel biologics for next generation of cancer drugs.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <img
-              id="image-1"
-              src="assets/images/precision technology.jpg"
-              class="founders-img animate__animated"
-              alt=""
-            />
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="container-fluid">
-          <div class="card-section team-section section-1 d-flex">
-            <div class="row">
-              <img
-                id="image-2"
-                src="assets/images/Therapeutics.jpg"
-                class="img-research2 team-img animate__animated"
-                alt=""
-              />
-              <div class="team-box box-height-2 animate__animated">
-                <div class="card-body">
-                  <h1 class="card-title">Therapeutics</h1>
-                  <p class="card-text mb-0">
-                    Targeting the key phenomena in immuno-oncology.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="container-fluid">
-          <div class="card-section section-1 d-flex">
-            <div class="row">
-              <div class="founders-box box-height-3 animate__animated">
-                <div class="card-body">
-                  <h1 class="card-title text-right">Vision</h1>
-                  <p class="card-text mb-0 text-right">
-                    Delivering the full potential of Immunotherapy.
-                  </p>
-                </div>
-              </div>
-              <img
-                id="image-3"
-                src="assets/images/Vision.jpg"
-                class="founders-img animate__animated"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="research-details mobile-research">
-      <div class="row">
-        <span class="section-title mobile-content-center"
-          >The enabler of many technologies</span
-        >
-      </div>
-      <div
-        id="card-1"
-        class="row card-row mobile-content-center research-mt-5 mb-5 animate__animated"
-      >
-        <div class="card">
-          <img class="card-img" src="assets/images/precision technology.jpg" />
-          <h1 class="mobile-card-title">Precision Technology</h1>
-          <p class="mobile-card-text">
-            Cutting edge novel biologics for next generation of cancer drugs.
-          </p>
-        </div>
-      </div>
-      <div
-        id="card-2"
-        class="row card-row mobile-content-center mt-5 mb-5 animate__animated"
-      >
-        <div class="card">
-          <img class="card-img" src="assets/images/Therapeutics.jpg" />
-          <h1 class="mobile-card-title">Therapeutics</h1>
-          <p class="mobile-card-text">
-            Targeting the key phenomena in immuno-oncology.
-          </p>
-        </div>
-      </div>
-      <div
-        id="card-3"
-        class="row card-row mobile-content-center mt-5 mb-5 animate__animated"
-      >
-        <div class="card">
-          <img class="card-img" src="assets/images/Vision.jpg" />
-          <h1 class="mobile-card-title">Vision</h1>
-          <p class="mobile-card-text">
-            Delivering the full potential of Immunotherapy.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <div class="footer">
-      <div class="footer-area row">
-        <div class="footer-section-1 col-lg-6 col-md-12 col-sm-12 bg-footer">
-          <div class="row logo-row">
-            <div class="col-lg-9 col-md-6 col-sm-9">
-              <img
-                class="footer-logo"
-                src="assets/images/redwood-logo.png"
-                alt="Redwood Biologics"
-              />
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-3">
-              <div class="row footer-social-bar">
-                <a href="https://twitter.com/redwoodbiologics" target="_blank"
-                  ><span class="footer-social-icon"
-                    ><img
-                      src="assets/images/twitter-icon.png"
-                      alt="Twitter" /></span
-                ></a>
-                <a
-                  href="https://www.linkedin.com/company/redwoodbiologics"
-                  target="_blank"
-                  ><span class="footer-social-icon"
-                    ><img
-                      src="assets/images/linkedin-icon.png"
-                      alt="Twitter" /></span
-                ></a>
-              </div>
-            </div>
-          </div>
-          <hr class="line_row line_row_1" />
+  <section id="about" class="research-details bg-research text-center">
+    <span class="section-title">The enabler of many technologies</span>
+    <div class="row">
+      <div class="container-fluid">
+        <div class="card-section section-1 d-flex">
           <div class="row">
-            <!-- <div class="col-lg-7 col-md-7 col-sm-12">
-              <h5>Singapore</h5>
-              <p class="footer-address">
-                79 Ayer Rajah Crescent, #02-19,
-
-                <br />
-                Block 79, Singapore 139955
-              </p>
-            </div> -->
-            <div class="col-lg-5 col-md-5 col-sm-12">
-              <h5>San Francisco</h5>
-              <p class="footer-address">
-                814 Mission Street, 6th Floor
-                <br />
-                San Francisco, CA, 94103
-                <br />
-              </p>
-            </div>
-          </div>
-          <p class="footer-copyright lg-copyright">
-            © 2021 Redwood Biologics. All rights reserved.
-          </p>
-        </div>
-        <div class="col-lg-3 footer-filler"></div>
-        <div class="footer-section-2 col-lg-3 col-md-12 col-sm-12 bg-footer">
-          <div id="f-head_row" class="row">
-            <h1 class="f-section2-head">Contact us</h1>
-          </div>
-          <hr id="line1_footer_lg" class="line_row" />
-          <div class="enquries-row row">
-            <div class="contact-section-1">
-              <h5 class="f-section2-title">For U.S. Enquiries</h5>
-              <p class="f-section2-text">pr@redwoodbiologics.com</p>
-            </div>
-            <div class="contact-section-2">
-              <h5 class="f-section2-title">For Asia Enquiries</h5>
-              <p class="f-section2-text">pr@redwoodbiologics.com</p>
-            </div>
-          </div>
-        </div>
-        <div class="footer-section-2 col-sm-12 mobile-footer">
-          <div id="f-head_row" class="row mobile-content-center">
-            <h1 class="f-section2-head">Contact us</h1>
-          </div>
-          <hr class="line_row" />
-          <div class="enquries-row row">
-            <div class="contact-section-1 col-sm-12 mobile-text-center">
-              <h5 class="f-section2-title">For U.S. Enquiries</h5>
-              <p class="f-section2-text">pr@redwoodbiologics.com</p>
-            </div>
-            <div class="contact-section-2 col-sm-12 mobile-text-center">
-              <h5 class="f-section2-title">For Asia Enquiries</h5>
-              <p class="f-section2-text">pr@redwoodbiologics.com</p>
-            </div>
-          </div>
-          <hr class="line_row line_row1 mobile-footer" />
-          <div class="row logo-row col-sm-12 mobile-content-center">
-            <div class="mobile-content-center">
-              <img
-                class="footer-logo"
-                src="assets/images/redwood-logo.png"
-                alt="redwood biologics"
-              />
-            </div>
-            <div class="mobile-content-center">
-              <div class="row footer-social-bar">
-                <a href="https://twitter.com/redwoodbiologics" target="_blank"
-                  ><span class="footer-social-icon"
-                    ><img
-                      src="assets/images/twitter-icon.png"
-                      alt="Twitter" /></span
-                ></a>
-                <a
-                  href="https://www.linkedin.com/company/redwoodbiologics"
-                  target="_blank"
-                  ><span class="footer-social-icon"
-                    ><img
-                      src="assets/images/linkedin-icon.png"
-                      alt="Twitter" /></span
-                ></a>
+            <div class="founders-box box-height-1 animate__animated">
+              <div class="card-body">
+                <h1 class="card-title text-right">Precision Technology</h1>
+                <p class="card-text mb-0 text-right pl-5">
+                  Cutting edge novel biologics for next generation of cancer drugs.
+                </p>
               </div>
             </div>
           </div>
-          <hr class="line_row mobile-footer" />
-          <div class="row mobile-footer-address mobile-text-center">
-            <!-- <div class="col-lg-7 col-md-7 col-sm-12">
+          <img id="image-1" src="assets/images/precision technology.jpg" class="founders-img animate__animated"
+            alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="container-fluid">
+        <div class="card-section team-section section-1 d-flex">
+          <div class="row">
+            <img id="image-2" src="assets/images/Therapeutics.jpg" class="img-research2 team-img animate__animated"
+              alt="" />
+            <div class="team-box box-height-2 animate__animated">
+              <div class="card-body">
+                <h1 class="card-title">Therapeutics</h1>
+                <p class="card-text mb-0">
+                  Targeting the key phenomena in immuno-oncology.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="container-fluid">
+        <div class="card-section section-1 d-flex">
+          <div class="row">
+            <div class="founders-box box-height-3 animate__animated">
+              <div class="card-body">
+                <h1 class="card-title text-right">Vision</h1>
+                <p class="card-text mb-0 text-right pl-5 ml-5">
+                  Delivering the full potential of Immunotherapy.
+                </p>
+              </div>
+            </div>
+            <img id="image-3" src="assets/images/Vision.jpg" class="founders-img animate__animated" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="research-details mobile-research">
+    <div class="row">
+      <span class="section-title mobile-content-center">The enabler of many technologies</span>
+    </div>
+    <div id="card-1" class="row card-row mobile-content-center research-mt-5 mb-5 animate__animated">
+      <div class="card">
+        <img class="card-img" src="assets/images/precision technology.jpg" />
+        <h1 class="mobile-card-title">Precision Technology</h1>
+        <p class="mobile-card-text">
+          Cutting edge novel biologics for next generation of cancer drugs.
+        </p>
+      </div>
+    </div>
+    <div id="card-2" class="row card-row mobile-content-center mt-5 mb-5 animate__animated">
+      <div class="card">
+        <img class="card-img" src="assets/images/Therapeutics.jpg" />
+        <h1 class="mobile-card-title">Therapeutics</h1>
+        <p class="mobile-card-text">
+          Targeting the key phenomena in immuno-oncology.
+        </p>
+      </div>
+    </div>
+    <div id="card-3" class="row card-row mobile-content-center mt-5 mb-5 animate__animated">
+      <div class="card">
+        <img class="card-img" src="assets/images/Vision.jpg" />
+        <h1 class="mobile-card-title">Vision</h1>
+        <p class="mobile-card-text">
+          Delivering the full potential of Immunotherapy.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="footer">
+    <div class="footer-area row">
+      <div class="footer-section-1 col-lg-6 col-md-12 col-sm-12 bg-footer">
+        <div class="row logo-row">
+          <div class="col-lg-9 col-md-6 col-sm-9">
+            <img class="footer-logo" src="assets/images/redwood-logo.png" alt="Redwood Biologics" />
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-3">
+            <div class="row footer-social-bar">
+              <a href="https://twitter.com/redwoodbiologics" target="_blank"><span class="footer-social-icon"><img
+                    src="assets/images/twitter-icon.png" alt="Twitter" /></span></a>
+              <a href="https://www.linkedin.com/company/redwoodbiologics" target="_blank"><span
+                  class="footer-social-icon"><img src="assets/images/linkedin-icon.png" alt="Twitter" /></span></a>
+            </div>
+          </div>
+        </div>
+        <hr class="line_row line_row_1" />
+        <div class="row">
+          <!-- <div class="col-lg-7 col-md-7 col-sm-12">
               <h5>Singapore</h5>
               <p class="footer-address">
                 79 Ayer Rajah Crescent, #02-19,
@@ -363,56 +191,120 @@
                 Block 79, Singapore 139955
               </p>
             </div> -->
-            <div class="col-lg-5 col-md-5 col-sm-12">
-              <h5>San Francisco</h5>
-              <p class="footer-address">
-                814 Mission Street, 6th Floor
-                <br />
-                San Francisco, CA, 94103
-                <br />
-              </p>
-            </div>
+          <div class="col-lg-5 col-md-5 col-sm-12">
+            <h5>San Francisco</h5>
+            <p class="footer-address">
+              814 Mission Street, 6th Floor
+              <br />
+              San Francisco, CA, 94103
+              <br />
+            </p>
           </div>
-          <hr class="line_row line_row2 mobile-footer" />
         </div>
-        <div class="md-copyright-row row col-12 col-sm-12">
-          <p class="footer-copyright md-copyright">
-            © 2021 Redwood Biologics. All rights reserved.
-          </p>
+        <p class="footer-copyright lg-copyright">
+          © 2021 Redwood Biologics. All rights reserved.
+        </p>
+      </div>
+      <div class="col-lg-3 footer-filler"></div>
+      <div class="footer-section-2 col-lg-3 col-md-12 col-sm-12 bg-footer">
+        <div id="f-head_row" class="row">
+          <h1 class="f-section2-head">Contact us</h1>
+        </div>
+        <hr id="line1_footer_lg" class="line_row" />
+        <div class="enquries-row row">
+          <div class="contact-section-1">
+            <h5 class="f-section2-title">For Enquiries</h5>
+            <p class="f-section2-text">pr@redwoodbiologics.com</p>
+          </div>
+          <!-- <div class="contact-section-2">
+              <h5 class="f-section2-title">For Asia Enquiries</h5>
+              <p class="f-section2-text">pr@redwoodbiologics.com</p>
+            </div> -->
         </div>
       </div>
+      <div class="footer-section-2 col-sm-12 mobile-footer">
+        <div id="f-head_row" class="row mobile-content-center">
+          <h1 class="f-section2-head">Contact us</h1>
+        </div>
+        <hr class="line_row" />
+        <div class="enquries-row row">
+          <div class="contact-section-1 col-sm-12 mobile-text-center">
+            <h5 class="f-section2-title">For Enquiries</h5>
+            <p class="f-section2-text">pr@redwoodbiologics.com</p>
+          </div>
+          <!-- <div class="contact-section-2 col-sm-12 mobile-text-center">
+              <h5 class="f-section2-title">For Asia Enquiries</h5>
+              <p class="f-section2-text">pr@redwoodbiologics.com</p>
+            </div> -->
+        </div>
+        <hr class="line_row line_row1 mobile-footer" />
+        <div class="row logo-row col-sm-12 mobile-content-center">
+          <div class="mobile-content-center">
+            <img class="footer-logo" src="assets/images/redwood-logo.png" alt="redwood biologics" />
+          </div>
+          <div class="mobile-content-center">
+            <div class="row footer-social-bar">
+              <a href="https://twitter.com/redwoodbiologics" target="_blank"><span class="footer-social-icon"><img
+                    src="assets/images/twitter-icon.png" alt="Twitter" /></span></a>
+              <a href="https://www.linkedin.com/company/redwoodbiologics" target="_blank"><span
+                  class="footer-social-icon"><img src="assets/images/linkedin-icon.png" alt="Twitter" /></span></a>
+            </div>
+          </div>
+        </div>
+        <hr class="line_row mobile-footer" />
+        <div class="row mobile-footer-address mobile-text-center">
+          <!-- <div class="col-lg-7 col-md-7 col-sm-12">
+              <h5>Singapore</h5>
+              <p class="footer-address">
+                79 Ayer Rajah Crescent, #02-19,
+
+                <br />
+                Block 79, Singapore 139955
+              </p>
+            </div> -->
+          <div class="col-lg-5 col-md-5 col-sm-12">
+            <h5>San Francisco</h5>
+            <p class="footer-address">
+              814 Mission Street, 6th Floor
+              <br />
+              San Francisco, CA, 94103
+              <br />
+            </p>
+          </div>
+        </div>
+        <hr class="line_row line_row2 mobile-footer" />
+      </div>
+      <div class="md-copyright-row row col-12 col-sm-12">
+        <p class="footer-copyright md-copyright">
+          © 2021 Redwood Biologics. All rights reserved.
+        </p>
+      </div>
     </div>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/charming.min.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/scripts.js"></script>
-    <script src="js/jquery.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
-      integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      window.onload = function () {
-        document.querySelector(".preloader").style.display = "none";
-      };
-    </script>
-  </body>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/charming.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+    integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+    crossorigin="anonymous"></script>
+  <script>
+    window.onload = function () {
+      document.querySelector(".preloader").style.display = "none";
+    };
+  </script>
+</body>
+
 </html>
